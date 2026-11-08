@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article."
+title: "Tracking Conscious Entry to NREM Sleep (Yoga Nidra) Using a Citizen Neuroscience Framework: code and computed results"
+type: software
+version: 1.0.0
+date-released: 2026-11-08
+license: Apache-2.0
+repository-code: "https://github.com/prakash-kavi/LucidNREM-YogaNidra"
+authors:
+  - family-names: Kavi
+    given-names: Prakash
+    affiliation: "Universitat de Girona, Girona, Spain"
+    email: prakash.kavi@gmail.com
+  - family-names: Zerr
+    given-names: Paul
+    affiliation: "Radboud University, Nijmegen, Netherlands"
+  - family-names: Patow
+    given-names: Gustavo
+    affiliation: "Universitat de Girona, Girona, Spain; Universitat Pompeu Fabra, Barcelona, Spain"
+preferred-citation:
+  type: article
+  title: "Tracking Conscious Entry to NREM Sleep (Yoga Nidra) Using a Citizen Neuroscience Framework"
+  journal: "Frontiers in Psychology"
+  status: submitted
+  authors:
+    - family-names: Kavi
+      given-names: Prakash
+    - family-names: Zerr
+      given-names: Paul
+    - family-names: Patow
+      given-names: Gustavo

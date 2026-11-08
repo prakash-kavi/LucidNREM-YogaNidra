@@ -1,0 +1,35 @@
+# Recordings and derived data stay out of git (they live in a private folder outside the repository)
+data/
+derivatives/
+*.edf
+*.acq
+*.hyp
+*.dat
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Python environments
+.venv*/
+
+# Analysed participant data stay local (Data Availability: only code and computed results are shared)
+results/session_summary.csv
+results/pilot_noise.csv
+
+# The manuscript stays local
+paper/
+
+# private participant data (never commit)
+LucidNREM-YogaNidra-PRIVATE/

@@ -1,0 +1,5 @@
+# Environment for analysis/mmn_power.py, analysis/hits_fisher.py and analysis/plot_fig6.py.
+# Python 3.9, with the same versions as env/requirements-offlinedreamento.txt, with which the published results were computed.
+numpy==1.22.4
+scipy==1.8.1
+matplotlib==3.5.2

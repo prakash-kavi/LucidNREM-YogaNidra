@@ -1,0 +1,55 @@
+# OfflineDreamento runtime, pinned to the versions of the upstream Dreamento conda environment (Python 3.9).
+# The pickled DreamentoScorer model/scaler need these exact scikit-learn/LightGBM/joblib versions.
+# Create: uv venv --python 3.9 .venv-dreamento && uv pip install --python .venv-dreamento -r env/requirements-offlinedreamento.txt
+antropy==0.1.4
+boruta==0.3
+cycler==0.11.0
+fonttools==4.34.4
+joblib==1.1.0
+kiwisolver==1.4.4
+lightgbm==3.3.2
+llvmlite==0.38.1
+lspopt==1.2.0
+matplotlib==3.5.2
+mne==1.0.3
+nolds==0.5.2
+numba==0.55.2
+numpy==1.22.4
+openpyxl==3.0.9
+pandas==1.4.3
+pillow==9.2.0
+pooch==1.6.0
+pyriemann==0.2.7
+pywavelets==1.3.0
+scikit-learn==1.1.1
+scipy==1.8.1
+seaborn==0.11.2
+stochastic==0.7.0
+tensorpac==0.6.5
+threadpoolctl==3.1.0
+tqdm==4.64.0
+yasa==0.6.1
+
+# Indirect dependencies, pinned to the same versions (newer releases break the 2022 stack;
+# e.g. setuptools>=81 dropped pkg_resources, which mne 1.0.3 imports).
+certifi==2022.6.15
+charset-normalizer==2.0.4
+decorator==5.1.1
+future==0.18.2
+idna==3.3
+jinja2==3.0.3
+littleutils==0.2.2
+markupsafe==2.1.1
+outdated==0.2.1
+packaging==21.3
+pyparsing==3.0.4
+python-dateutil==2.8.2
+pytz==2022.1
+requests==2.28.1
+setuptools==61.2.0
+six==1.16.0
+typing-extensions==4.1.1
+urllib3==1.26.9
+
+# Reading Biopac .acq EMG files (analysis only; not used by Dreamento)
+bioread==3.0.1

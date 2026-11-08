@@ -1,0 +1,11 @@
+analysis,stage,noise,jitter_ms,effect_uV,noise_sd_uV,deviants_for_80pct,minutes_for_80pct,power_day1,power_day1_plus_1_night,se_day1_uV,se_day1_plus_20_nights_uV,power_single_nightly_run,stim_min,stim_deviants,power_lucid_N2_noise,power_lucid_N3_noise,power_lucid_30ms_jitter,false_positive_nonlucid,se_uV
+deviants for 80% power,W,W,0,1.004,8.03,494,24.7,,,,,,,,,,,,
+deviants for 80% power,W,W,30,0.862,8.03,670,33.5,,,,,,,,,,,,
+deviants for 80% power,N2,N2,0,0.603,8.12,1404,70.2,,,,,,,,,,,,
+deviants for 80% power,N2,N2,30,0.517,8.12,1904,95.2,,,,,,,,,,,,
+deviants for 80% power,N2,N3,0,0.603,12.21,3173,158.7,,,,,,,,,,,,
+deviants for 80% power,N2,N3,30,0.517,12.21,4303,215.2,,,,,,,,,,,,
+H1 wake calibration,W,,,,,,,0.709,0.791,0.449,0.183,0.292,,,,,,,
+"per-night power, stable N2",,,,,,,,,,,,,5,100,0.16,0.113,0.141,0.05,0.908
+"per-night power, stable N2",,,,,,,,,,,,,10,200,0.235,0.151,0.201,0.05,0.642
+"per-night power, stable N2",,,,,,,,,,,,,15,300,0.303,0.186,0.255,0.05,0.524
